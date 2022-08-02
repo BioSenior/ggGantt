@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of ggGantt is to …
+The goal of ggGantt is to make a gantt plot.
 
 ## Installation
 
