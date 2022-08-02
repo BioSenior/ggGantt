@@ -69,7 +69,7 @@ project, schedule, and other time-dependent system progress over time.
 p <- ggplot(ToothGrowth, aes(supp, len))
 
 # gantt plot
-p + geom_gantt(aes(fill = supp))
+p + geom_gantt(aes(fill = supp), width = 0.1)
 
 # Add stroke and median points
 p + geom_gantt(aes(fill = as.factor(dose)),

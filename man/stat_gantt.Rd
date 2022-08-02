@@ -64,5 +64,5 @@ minimum, first quartile, median, third quartile, and the maximum.
 p <- ggplot(ToothGrowth, aes(supp, len))
 
 # gantt plot
-p + stat_gantt(aes(fill = supp))
+p + stat_gantt(aes(fill = supp), width = 0.1)
 }

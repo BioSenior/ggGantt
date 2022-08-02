@@ -11,7 +11,7 @@
 #' p <- ggplot(ToothGrowth, aes(supp, len))
 #'
 #' # gantt plot
-#' p + stat_gantt(aes(fill = supp))
+#' p + stat_gantt(aes(fill = supp), width = 0.1)
 stat_gantt <- function(mapping = NULL, data = NULL, geom = "gantt",
                        position = "identity", show.legend = NA,
                        inherit.aes = TRUE, ...) {
@@ -54,7 +54,7 @@ StatGantt <- ggproto("StatGantt", Stat,
 #' p <- ggplot(ToothGrowth, aes(supp, len))
 #'
 #' # gantt plot
-#' p + geom_gantt(aes(fill = supp))
+#' p + geom_gantt(aes(fill = supp), width = 0.1)
 #'
 #' # Add stroke and median points
 #' p + geom_gantt(aes(fill = as.factor(dose)),
