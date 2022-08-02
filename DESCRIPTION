@@ -1,0 +1,19 @@
+Package: ggGantt
+Title: Make a gantt plot
+Version: 0.1.0
+Author: BioSenior <609382383@qq.com>
+Maintainer: BioSenior <609382383@qq.com>
+Description: The gantt plot uses bar charts to show the intrinsic relationship of project, schedule, and other time-dependent system progress over time.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    dplyr,
+    grid,
+    magrittr,
+    rayshader,
+    scales
+Depends:
+    tidyverse,
+    ggplot2
