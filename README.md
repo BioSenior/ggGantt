@@ -250,4 +250,4 @@ ggplot(gantt_data_wider)+
 
 <img src="man/figures/README-unnamed-chunk-8-1.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" width="100%" />
 
-> Welcome to pay attention to the BioSenior to get more practical tutorials on scientific mapping!
+> Welcome to follow the BioSenior to get more practical tutorials on scientific mapping!
