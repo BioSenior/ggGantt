@@ -39,6 +39,7 @@ p + geom_gantt(aes(fill = supp), width = 0.1)
 ```
 
 <img src="man/figures/README-example-1.png" title="plot of chunk example" alt="plot of chunk example" width="100%" />
+
 - Add stroke and median points
   - `stroke`: used to adjust the stroke of the median points
 
@@ -51,6 +52,7 @@ p + geom_gantt(aes(fill = as.factor(dose)),
 ```
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="100%" />
+
 - Change the theme and colors
 
 ```r
@@ -83,6 +85,7 @@ p + geom_gantt(aes(fill = as.factor(dose)),
 ```
 
 <img src="man/figures/README-unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="100%" />
+
 - `coord_flip`: filp the x and y axis
 - `flip`: if you want to flip the x and y axis, please set the `flip = TRUE`
 
