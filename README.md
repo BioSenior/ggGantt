@@ -63,6 +63,7 @@ p + geom_gantt(aes(fill = as.factor(dose)),
 ```
 
 <img src="man/figures/README-unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="100%" />
+
 ### More interesting beautification effects
 - `add_line`: add a dashed line
 - `linecolor`: change the color of the line
@@ -103,6 +104,7 @@ p + geom_gantt(aes(fill = as.factor(dose)),
 ```
 
 <img src="man/figures/README-unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" width="100%" />
+
 ### `geom_gantt2`
 - `geom_gantt2` requires a processed wider data as input. See Examples for details. This function is an extension of `geom_gantt`.
 
@@ -134,6 +136,7 @@ ggplot(gantt_data_wider)+
 ```
 
 <img src="man/figures/README-unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" width="100%" />
+
 ### Use `geom_gantt` and `geom_gantt2` to reproduce the figures in NC
 ![gantt plot](https://tva1.sinaimg.cn/large/e6c9d24egy1h1roqmufj6j21bu0km43a.jpg)
 
@@ -243,4 +246,5 @@ ggplot(gantt_data_wider)+
 ```
 
 <img src="man/figures/README-unnamed-chunk-8-1.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" width="100%" />
+
 > Welcome to pay attention to the BioSenior to get more practical tutorials on scientific mapping!
