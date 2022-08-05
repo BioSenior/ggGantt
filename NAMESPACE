@@ -2,6 +2,7 @@
 
 export("%>%")
 export(geom_gantt)
+export(geom_gantt2)
 export(stat_gantt)
 import(dplyr)
 import(ggplot2)
